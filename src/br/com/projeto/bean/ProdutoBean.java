@@ -3,15 +3,11 @@ package br.com.projeto.bean;
 import java.util.ArrayList;
 
 import javax.annotation.PostConstruct;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
 import javax.faces.model.ListDataModel;
 
-import com.mysql.fabric.xmlrpc.base.Array;
-
+import br.com.projeto.dao.ProdutoDAO;
 import br.com.projeto.domain.Produto;
 import br.com.projeto.util.JSFUtil;
-import br.com.projeto.dao.*;
 
 public class ProdutoBean {
 	public Produto produto;

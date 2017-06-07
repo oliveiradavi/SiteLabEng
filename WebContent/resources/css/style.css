@@ -12,3 +12,18 @@
 .ui-widget,.ui-widget .ui-widget {
 	font-size: 12px !important;
 }
+
+.home {
+	font-size: 30px;
+	text-align: center;
+}
+
+.sobre {
+	font-size: 30px;
+	text-align: center;
+}
+
+.desc {
+	font-size: 20px;
+	text-align: center;
+}
